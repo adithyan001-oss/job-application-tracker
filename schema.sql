@@ -1,0 +1,16 @@
+CREATE DATABASE IF NOT EXISTS job_tracker;
+USE job_tracker;
+
+CREATE TABLE IF NOT EXISTS applications (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    company VARCHAR(100) NOT NULL,
+    role VARCHAR(150) NOT NULL,
+    location VARCHAR(100),
+    application_date DATE NOT NULL,
+    status VARCHAR(30) NOT NULL DEFAULT 'Applied',
+    source VARCHAR(100),
+    notes TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        ON UPDATE CURRENT_TIMESTAMP
+);
