@@ -39,6 +39,16 @@ README.md
 ## Future Improvements
 - Flask/Django web interface
 - Authentication
+- ## 📸 Screenshots
+
+### Main Menu
+![Main Menu](Screenshot%202026-08-29%20115246.png)
+
+### View Applications
+![View Applications](Screenshot%202026-08-29%20115300.png)
+
+### Dashboard
+![Dashboard](Screenshot%202026-08-29%20115307.png)
 - Follow-up reminders
 - CSV export
 - Charts
